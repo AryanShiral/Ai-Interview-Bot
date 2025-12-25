@@ -1,11 +1,12 @@
 window.addEventListener("load", () => {
   anime({
-    targets: "#dust-paarticle path",
-    translateY: [20, -120],
-    direction: "alternate",
+    targets: "#dust-paarticle *",
+    translateY: [
+      { value: -20, duration: 2000 },
+      { value: 20, duration: 2000 }
+    ],
     easing: "easeInOutSine",
-    duration: 6000,
-    delay: anime.stagger(400),
-    loop: true
+    loop: true,
+    delay: anime.stagger(50)
   });
 });
