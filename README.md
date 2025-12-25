@@ -1,1 +1,2 @@
-# Ai-Interview-Bot
+# SkillSense
+An AI Interview Chat Bot
